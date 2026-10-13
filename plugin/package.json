@@ -1,0 +1,18 @@
+{
+  "name": "dsh-educoder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "头歌（educoder）做题助手：巡检完成状态 / 打开题目 / 写代码 / 提交评测，把 6~8 步手工操作压成一次工具调用（工具：educoder_status / educoder_open / educoder_read_editor / educoder_write / educoder_run / educoder_submit / educoder_next）",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

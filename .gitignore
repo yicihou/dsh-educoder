@@ -1,0 +1,16 @@
+# 运行/本地产物，不进版本库
+node_modules/
+work/
+plan.json
+.cdp-browser/
+*.log
+__pycache__/
+
+# 截图与临时文件
+edu-shot.png
+*.tmp
+*.orig
+*.snippet.cpp
+
+# macOS
+.DS_Store
